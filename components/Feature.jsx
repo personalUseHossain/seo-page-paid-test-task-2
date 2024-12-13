@@ -86,7 +86,7 @@ export default function Feauter() {
           className="h-[100vh] lg:h-[180vh] 2xl:h-[180vh]"
         >
           <div className="grid h-[100vh] relative items-center justify-center w-full z-10">
-            <h2 className="text-4xl font-thin text-center text-[#1A3647]">
+            <h2 className="text-6xl font-thin text-center text-[#1A3647]">
               Worldwide Transport, Simplified
             </h2>
 
@@ -95,7 +95,7 @@ export default function Feauter() {
               {services.map((service, index) => (
                 <motion.div
                   key={index}
-                  className="absolute flex items-center justify-center text-center text-white bg-primary rounded-full w-[20vw] h-[20vw] mr-5"
+                  className="absolute flex items-center justify-center text-center text-white bg-primary rounded-full w-[16vw] h-[16vw] mr-5"
                   initial={serviceTransforms[index]}
                   animate={
                     isMerged ? { x: 0, scale: 1 } : serviceTransforms[index]

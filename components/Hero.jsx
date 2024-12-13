@@ -69,7 +69,7 @@ export default function Hero() {
       />
       <div className="hero h-[100vh] flex flex-col justify-center items-start gap-32" ref={heroSectionRef}>
         <div className="hero-top-text">
-          <h1 className="text-primary font-bold text-4xl">
+          <h1 className="text-primary font-bold text-6xl">
             <span
               style={{
                 transform: `scale(${scales[0]})`,

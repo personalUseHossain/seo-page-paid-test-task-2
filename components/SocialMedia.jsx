@@ -21,25 +21,25 @@ export default function SocialMedia() {
         <div className="flex justify-center w-full space-x-5 lg:justify-end lg:w-1/2">
           <a
             href="#"
-            className="p-3 text-2xl text-gray-100 duration-200 ease-linear border border-gray-100 rounded-full h-12 w-12 flex justify-center hover:bg-gray-100 hover:text-brand-primary broder"
+            className="p-3 text-2xl text-gray-100 duration-200 ease-linear border border-gray-100 rounded-full h-12 w-12 flex justify-center hover:bg-gray-100 hover:text-primary broder"
           >
             <FontAwesomeIcon icon={faFacebookF} />
           </a>
           <a
             href="#"
-            className="p-3 text-2xl text-gray-100 duration-200 ease-linear border border-gray-100 rounded-full h-12 w-12 flex justify-center hover:bg-gray-100 hover:text-brand-primary broder"
+            className="p-3 text-2xl text-gray-100 duration-200 ease-linear border border-gray-100 rounded-full h-12 w-12 flex justify-center hover:bg-gray-100 hover:text-primary broder"
           >
             <FontAwesomeIcon icon={faTwitterSquare} />
           </a>
           <a
             href="#"
-            className="p-3 text-2xl text-gray-100 duration-200 ease-linear border border-gray-100 rounded-full h-12 w-12 flex justify-center hover:bg-gray-100 hover:text-brand-primary broder"
+            className="p-3 text-2xl text-gray-100 duration-200 ease-linear border border-gray-100 rounded-full h-12 w-12 flex justify-center hover:bg-gray-100 hover:text-primary broder"
           >
             <FontAwesomeIcon icon={faInstagramSquare} />
           </a>
           <a
             href="#"
-            className="p-3 text-2xl text-gray-100 duration-200 ease-linear border border-gray-100 rounded-full h-12 w-12 flex justify-center hover:bg-gray-100 hover:text-brand-primary broder"
+            className="p-3 text-2xl text-gray-100 duration-200 ease-linear border border-gray-100 rounded-full h-12 w-12 flex justify-center hover:bg-gray-100 hover:text-primary broder"
           >
             <FontAwesomeIcon icon={faLinkedinIn} />
           </a>

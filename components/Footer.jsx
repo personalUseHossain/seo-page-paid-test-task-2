@@ -26,7 +26,7 @@ export default function Footer ()  {
 
   return (
     <>
-    <footer className="px-5 py-10 text-primary bg-white border-b border-brand-primary">
+    <footer className="px-5 py-10 text-primary bg-white border-b border-primary">
       <div className="justify-between mx-auto md:flex max-w-screen-2xl">
         {/* Left Section */}
         <div className="w-full md:w-4/12">
@@ -51,7 +51,7 @@ export default function Footer ()  {
               <li key={index} className="py-2">
                 <a
                   href={item.link}
-                  className="text-lg hover:text-brand-secondary"
+                  className="text-lg"
                 >
                   {item.name}
                 </a>
@@ -70,7 +70,7 @@ export default function Footer ()  {
               <li key={index} className="py-2">
                 <a
                   href={item.link}
-                  className="text-lg hover:text-brand-secondary"
+                  className="text-lg"
                 >
                   {item.name}
                 </a>
@@ -85,16 +85,16 @@ export default function Footer ()  {
             Call Us!
           </h3>
           <div className="mt-3 space-y-1">
-            <p className="text-lg hover:text-brand-secondary">
+            <p className="text-lg">
               +1-888-487-7707
             </p>
-            <p className="text-lg hover:text-brand-secondary">
+            <p className="text-lg">
               in California: +1-562-280-7200
             </p>
-            <p className="text-lg hover:text-brand-secondary">
+            <p className="text-lg">
               in Florida: +1-786-249-7200
             </p>
-            <p className="text-lg hover:text-brand-secondary">
+            <p className="text-lg">
               in New York: +1-631-737-7500
             </p>
           </div>
@@ -109,25 +109,25 @@ export default function Footer ()  {
         <div className="flex justify-center mt-8 space-x-5">
           <a
             href="#"
-            className="p-3 text-2xl duration-200 ease-linear border rounded-full h-12 w-12 flex justify-center hover:text-white broder border-brand-primary hover:bg-brand-primary"
+            className="p-3 text-2xl duration-200 ease-linear border rounded-full h-12 w-12 flex justify-center hover:text-white broder border-primary hover:bg-primary"
           >
             <FontAwesomeIcon icon={faFacebookF} />
           </a>
           <a
             href="#"
-            className="p-3 text-2xl duration-200 ease-linear border rounded-full h-12 w-12 flex justify-center hover:text-white broder border-brand-primary hover:bg-brand-primary"
+            className="p-3 text-2xl duration-200 ease-linear border rounded-full h-12 w-12 flex justify-center hover:text-white broder border-primary hover:bg-primary"
           >
             <FontAwesomeIcon icon={faTwitterSquare} />
             </a>
           <a
             href="#"
-            className="p-3 text-2xl duration-200 ease-linear border rounded-full h-12 w-12 flex justify-center hover:text-white broder border-brand-primary hover:bg-brand-primary"
+            className="p-3 text-2xl duration-200 ease-linear border rounded-full h-12 w-12 flex justify-center hover:text-white broder border-primary hover:bg-primary"
           >
             <FontAwesomeIcon icon={faInstagramSquare} />
             </a>
           <a
             href="#"
-            className="p-3 text-2xl duration-200 ease-linear border rounded-full h-12 w-12 flex justify-center hover:text-white broder border-brand-primary hover:bg-brand-primary"
+            className="p-3 text-2xl duration-200 ease-linear border rounded-full h-12 w-12 flex justify-center hover:text-white broder border-primary hover:bg-primary"
           >
             <FontAwesomeIcon icon={faLinkedinIn} />
             </a>

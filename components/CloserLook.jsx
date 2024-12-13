@@ -100,7 +100,7 @@ export default function CloserLook() {
     <>
       <hr className="h-[3px]" />
       <div className="relative bg-white py-8 pb-20 mx-auto border-b-2 slider-container">
-        <h4 className="my-8 text-primary mb-24 text-3xl text-center text-brand-primary">
+        <h4 className="my-8 text-primary mb-24 text-3xl text-center ">
           A Closer Look
         </h4>
         <Slider ref={sliderRef} {...settings}>

@@ -112,7 +112,7 @@ export default function DetailsFeature() {
 
       <div className="bg-primary pt-72">
         <p
-          className="sticky top-0 w-full px-5 pt-20 mx-auto text-2xl text-center text-gray-200 lg:px-44 2xl:px-[30rem] md:px-10 lg:text-4xl bg-brand-primary"
+          className="sticky top-0 w-full px-5 pt-20 mx-auto text-2xl text-center text-gray-200 lg:px-44 2xl:px-[30rem] md:px-10 lg:text-4xl"
           style={{
             zIndex: 10,
             paddingBottom: '3rem'

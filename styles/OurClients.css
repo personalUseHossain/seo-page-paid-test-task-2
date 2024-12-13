@@ -1,0 +1,56 @@
+/* Perspective to create 3D depth */
+.perspective {
+    perspective: 1000px; /* Adjust for depth effect */
+  }
+  
+
+  
+  .sphere-container {
+    perspective: 800px; /* Adjust as needed */
+    position: relative;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .logos-sphere-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    animation: spin-sphere 15s linear infinite;
+  }
+  
+  .logo-item img {
+    backface-visibility: hidden;
+  }
+
+  
+  /* Individual logo */
+  .logo-item {
+    position: absolute;
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform-origin: center; /* Transform from the center */
+  }
+  
+  /* Keyframes for sphere rotation */
+  @keyframes spin-sphere {
+    0% {
+      transform: rotateX(0deg) rotateY(0deg);
+    }
+    100% {
+      transform: rotateX(360deg) rotateY(360deg);
+    }
+  }
+  
+  .logo-item-img {
+    max-width: 8rem; /* Set appropriate width for logos */
+    max-height: 8rem; /* Set appropriate height for logos */
+    object-fit: contain;
+  }
+  
+
+  .tagcloud--item{
+    height: 8rem;
+    width: 8rem;
+  }

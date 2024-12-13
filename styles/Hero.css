@@ -1,0 +1,25 @@
+.hero{
+    position: relative;
+}
+
+.hero-section-image {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    height: 100%;
+  }
+
+.hero-top-text{
+    margin-left: 5rem;
+}
+
+.hero-top-text span {
+    display: inline-block;
+    transition: all .5s ease-out; /* Smooth transition */
+  }
+
+@media (width < 788px){
+    .hero-top-text{
+        margin-left: 1rem;
+    }
+}

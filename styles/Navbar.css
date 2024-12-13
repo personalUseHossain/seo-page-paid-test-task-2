@@ -1,0 +1,19 @@
+nav .bar-icon{
+    display: none;
+    margin-right: 2rem;
+}
+
+@media (width < 960px){
+    nav .menu {
+        display: none;
+    }
+
+    nav .bar-icon{
+        display: block;
+    }
+
+    nav .logo{
+        width: 8rem;
+    }
+    
+}

@@ -91,7 +91,7 @@ export default function Feauter() {
             </h2>
 
             {/* Four circles in a single row */}
-            <div className="flex justify-center h-full">
+            <div className="flex justify-center h-full gap-7">
               {services.map((service, index) => (
                 <motion.div
                   key={index}

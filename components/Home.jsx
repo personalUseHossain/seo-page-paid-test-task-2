@@ -24,6 +24,7 @@ export default function Home() {
       <Hero />
       <Feature />
       <DetailsFeature />
+      <Logistic />
       <RetailsProducts />
       <ExpandingCircle />
       <OurClients />
@@ -32,7 +33,6 @@ export default function Home() {
       <ContactForm />
       <CloserLook />
       <Footer />
-      <Logistic />
     </>
   );
 }

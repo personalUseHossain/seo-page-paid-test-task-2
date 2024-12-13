@@ -91,11 +91,11 @@ export default function Feauter() {
             </h2>
 
             {/* Four circles in a single row */}
-            <div className="flex justify-center h-full gap-7">
+            <div className="flex justify-center h-full">
               {services.map((service, index) => (
                 <motion.div
                   key={index}
-                  className="absolute flex items-center justify-center text-center text-white bg-primary rounded-full w-[20vw] h-[20vw]"
+                  className="absolute flex items-center justify-center text-center text-white bg-primary rounded-full w-[20vw] h-[20vw] mr-5"
                   initial={serviceTransforms[index]}
                   animate={
                     isMerged ? { x: 0, scale: 1 } : serviceTransforms[index]

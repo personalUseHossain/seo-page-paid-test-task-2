@@ -31,7 +31,7 @@ const ExpandingCircle = () => {
           backgroundColor: backgroundColor, // Bind the background color to scrollYProgress
         }}
         transition={{ type: "spring", stiffness: 100, damping: 25 }} // Smooth transition for scaling
-        className="h-40 w-40 text-center rounded-full sticky top-0 z-[1]"
+        className="h-60 w-60 text-center rounded-full sticky top-0 z-[1]"
       >
         {/* No text inside the circle */}
       </motion.div>

@@ -16,7 +16,7 @@ export default function DetailsFeature() {
     {
       value: 76,
       label: "% Warehouse capacity utilization rate",
-      color: "text-brand-secondary",
+      color: "text-[#a8bcac]",
     },
   ];
 

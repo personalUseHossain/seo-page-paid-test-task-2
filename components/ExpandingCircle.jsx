@@ -14,7 +14,7 @@ const ExpandingCircle = () => {
 
   // Use useTransform to map scrollYProgress to the scale value
   // Here, as scrollYProgress goes from 0 to 1, scale should go from 1 to 15
-  const scale = useTransform(scrollYProgress, [0, .5, 1], [1, 15, 20]);
+  const scale = useTransform(scrollYProgress, [0, .5, 1], [1, 2, 7]);
   // Use useTransform to map scrollYProgress to the color transition
   const backgroundColor = useTransform(
     scrollYProgress, 
@@ -23,7 +23,7 @@ const ExpandingCircle = () => {
   );
 
   return (
-    <div ref={circleRef} className="h-[300vh] flex justify-center items-start"> {/* Ensure overflow visible to allow sticky behavior */}
+    <div ref={circleRef} className="h-[300vh] relative flex justify-center items-start"> {/* Ensure overflow visible to allow sticky behavior */}
       <motion.div
          // Use the circleRef for the scroll tracking
         style={{
@@ -31,7 +31,7 @@ const ExpandingCircle = () => {
           backgroundColor: backgroundColor, // Bind the background color to scrollYProgress
         }}
         transition={{ type: "spring", stiffness: 100, damping: 25 }} // Smooth transition for scaling
-        className="h-60 w-60 text-center rounded-full sticky top-0 z-[1]"
+        className="h-72 w-72 text-center rounded-full sticky top-0 z-[1]"
       >
         {/* No text inside the circle */}
       </motion.div>
